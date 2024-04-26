@@ -8,6 +8,7 @@ import numpy as np
 from tqdm import tqdm
 import config
 from model import AutoEncoder
+from torchvision.utils import save_image
 
 
 def imshow(img, title):
